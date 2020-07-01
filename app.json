@@ -18,9 +18,8 @@
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org"
         },
-        "HU_STRING_SESSION": {
-            "description": "Get it by running `bash genStr` command or ignore this",
-            "required": false
+        "TOKEN": {
+            "description": "Plox enter bot token here.",
         },
         "WORKERS": {
             "description": "Userbot Workers Count : Default = 4",
