@@ -46,7 +46,7 @@ class Config:
     API_HASH = os.environ.get("API_HASH", None)
     WORKERS = int(os.environ.get("WORKERS", 4))
     ANTISPAM_SENTRY = bool(os.environ.get("ANTISPAM_SENTRY", False))
-    HU_STRING_SESSION = os.environ.get("HU_STRING_SESSION", None)
+    TOKEN = os.environ.get("TOKEN", None)
     DB_URI = os.environ.get("DATABASE_URL", '')
     LANG = os.environ.get("PREFERRED_LANGUAGE", "en")
     DOWN_PATH = os.environ.get("DOWN_PATH", "downloads").rstrip('/') + '/'
