@@ -32,10 +32,10 @@ class Userge(Methods):
         self._imported: List[ModuleType] = []
         _LOG.info(_LOG_STR, "Setting Userge Configs")
         super().__init__(client=self,
-                         session_name=Config.HU_STRING_SESSION,
                          api_id=Config.API_ID,
                          api_hash=Config.API_HASH,
-                         workers=Config.WORKERS)
+                         workers=Config.WORKERS,
+                         bot_token=Config.TOKEN)
 
     @staticmethod
     def getLogger(name: str) -> logging.Logger:
